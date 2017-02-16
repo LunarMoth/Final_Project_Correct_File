@@ -32,7 +32,7 @@ class MyApp < Sinatra::Base
       @img = ""
     elsif params[:environment] == "boat"
       @song = "http://meditationroom.org/free-nature-sounds/wood-masted-sailboat-audio/wood-masted-sailboat.mp3"
-      @img = ""
+      @img = "http://revelwallpapers.net/d/307075495A49335A78624B346B714F503258527631646A69783964386E513D3D/boat-sea-sunset-painting-background.jpg"
     end
     erb :results
    end
